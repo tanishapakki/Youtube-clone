@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <style>
+      .header {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .left-section {
+        width: 150px;
+      }
+
+      .hamburger-menu {
+        height: 20px;
+      }
+      .youtube-logo {
+      }
+      .middle-section {
+        flex: 1;
+        margin-right: 35px;
+        margin-left: 70px;
+        max-width: 450px;
+      }
+      .right-section {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="logos/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="logos/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="right-section">right section</div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-1.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views · 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-3.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-1.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views · 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail info">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="" />
+        </div>
+        <div class="info-grid">
+          <div class="channel-pic">
+            <img
+              class="profile-picture"
+              src="channel-pp/channel-3.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="channel-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">12M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
